@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D89E09A2193E915000271BE /* ImagesLabelsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D89E0992193E915000271BE /* ImagesLabelsColors.swift */; };
 		8DAE3AB12193E45B007662E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE3AB02193E45B007662E4 /* AppDelegate.swift */; };
 		8DAE3AB32193E45B007662E4 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE3AB22193E45B007662E4 /* MasterViewController.swift */; };
 		8DAE3AB52193E45B007662E4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE3AB42193E45B007662E4 /* DetailViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D89E0992193E915000271BE /* ImagesLabelsColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesLabelsColors.swift; sourceTree = "<group>"; };
 		8DAE3AAD2193E45B007662E4 /* splitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = splitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DAE3AB02193E45B007662E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DAE3AB22193E45B007662E4 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D89E0982193E8FB000271BE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8D89E0992193E915000271BE /* ImagesLabelsColors.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8DAE3AA42193E45B007662E4 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		8DAE3AAF2193E45B007662E4 /* splitter */ = {
 			isa = PBXGroup;
 			children = (
+				8D89E0982193E8FB000271BE /* Data */,
 				8DAE3AB02193E45B007662E4 /* AppDelegate.swift */,
 				8DAE3AB22193E45B007662E4 /* MasterViewController.swift */,
 				8DAE3AB42193E45B007662E4 /* DetailViewController.swift */,
@@ -142,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DAE3AB52193E45B007662E4 /* DetailViewController.swift in Sources */,
+				8D89E09A2193E915000271BE /* ImagesLabelsColors.swift in Sources */,
 				8DAE3AB32193E45B007662E4 /* MasterViewController.swift in Sources */,
 				8DAE3AC52193E655007662E4 /* ImagesLabelsColors.swift in Sources */,
 				8DAE3AB12193E45B007662E4 /* AppDelegate.swift in Sources */,
