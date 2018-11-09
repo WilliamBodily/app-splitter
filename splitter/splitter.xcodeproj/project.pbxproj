@@ -14,7 +14,6 @@
 		8DAE3AB82193E45B007662E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE3AB62193E45B007662E4 /* Main.storyboard */; };
 		8DAE3ABA2193E45C007662E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE3AB92193E45C007662E4 /* Assets.xcassets */; };
 		8DAE3ABD2193E45C007662E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DAE3ABB2193E45C007662E4 /* LaunchScreen.storyboard */; };
-		8DAE3AC52193E655007662E4 /* ImagesLabelsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAE3AC42193E655007662E4 /* ImagesLabelsColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		8DAE3AB92193E45C007662E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DAE3ABC2193E45C007662E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DAE3ABE2193E45C007662E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8DAE3AC42193E655007662E4 /* ImagesLabelsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesLabelsColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 				8DAE3AB92193E45C007662E4 /* Assets.xcassets */,
 				8DAE3ABB2193E45C007662E4 /* LaunchScreen.storyboard */,
 				8DAE3ABE2193E45C007662E4 /* Info.plist */,
-				8DAE3AC42193E655007662E4 /* ImagesLabelsColors.swift */,
 			);
 			path = splitter;
 			sourceTree = "<group>";
@@ -155,7 +152,6 @@
 				8DAE3AB52193E45B007662E4 /* DetailViewController.swift in Sources */,
 				8D89E09A2193E915000271BE /* ImagesLabelsColors.swift in Sources */,
 				8DAE3AB32193E45B007662E4 /* MasterViewController.swift in Sources */,
-				8DAE3AC52193E655007662E4 /* ImagesLabelsColors.swift in Sources */,
 				8DAE3AB12193E45B007662E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
